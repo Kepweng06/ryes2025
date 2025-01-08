@@ -135,11 +135,15 @@ img{
 .down img{
     width: 100%;
 }
-.top{
+.top, .top2{
     position: relative;
 }
-.top img{
+.top img, .top2 img{
     width: 100%;
+}
+
+.top2 {
+    margin-top: -120px;
 }
 
 
