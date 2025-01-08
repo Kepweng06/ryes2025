@@ -19,7 +19,7 @@ img{
     align-items: center;
 }
 .down2 img{
-    width: 18rem;
+    width: 15rem;
     animation: move 3s infinite;
 }
 .note{
@@ -196,6 +196,9 @@ img{
   font-size: 0.75rem;
 }
 @media only screen and (max-width: 768px) {
+    .down2 img{
+        width: 18rem;
+    }
     .content, .foot {
       width: 100%;
     }
