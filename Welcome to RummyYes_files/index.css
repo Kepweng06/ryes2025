@@ -234,16 +234,26 @@ img{
         height: 4rem;
     
     }
+    .tg{
+        position: fixed;
+        right: 2%;
+        top: 46%;
+        margin: auto;
+        z-index: 999;
+        width: 4rem;
+        height: 4rem;
+    
+    }
     #times1 {
-        top: 44% !important;
+        top: 48% !important;
         right: 1% !important;
     }
     #times2 {
-        top: 49% !important;
+        top: 53.5% !important;
         right: 1% !important;
     }
     #times3 {
-        top: 54% !important;
+        top: 58.5% !important;
         right: 1% !important;
     }
   }
