@@ -19,7 +19,7 @@ img{
     align-items: center;
 }
 .down2 img{
-    width: 15rem;
+    width: 14rem;
     animation: move 3s infinite;
 }
 .note{
@@ -70,7 +70,7 @@ img{
 .fb{
     position: fixed;
     right: 0;
-    top: 32%;
+    top: 34%;
     margin: auto;
     z-index: 999;
     width: 4rem;
@@ -95,8 +95,8 @@ img{
 }
 .TG{
     position: fixed;
-    right: 0;
-    top: 46%;
+    right: 0%;
+    top: 43%;
     margin: auto;
     z-index: 999;
     width: 4rem;
@@ -124,31 +124,36 @@ img{
 .content{
     width: 550px;
     min-height: 100px;
-    background:url("../Welcome to RummyYes_files/rybg.jpg")no-repeat 50% -61%/100% auto,#131313;
+    background:url("../images/rybg.jpg")no-repeat 50% 45%/100% auto,#131313;
     margin: 0 auto;
     padding-bottom: 7.6rem;
 }
 .down-btns {
     display: flex;
     align-items: center;
-    padding-top: 20px;
-    margin-bottom: -50px;
+    margin-top: -0.5rem;
 }
 .down img{
     width: 100%;
 }
-.top, .top2{
+.top1, .top2, .top0 {
     position: relative;
 }
-.top img, .top2 img{
+.top1 img, .top2 img, .top0 img {
     width: 100%;
 }
-
-.top2 {
-    margin-top: -100px;
+.top1 .img1 {
+    margin-top: -1rem;
 }
-
-
+.top1 .img3 {
+    margin-top: -2rem;
+}
+.top2 .img4 {
+    margin-top: -5rem;
+}
+.top2 {
+    margin-bottom: -3rem;
+}
 .message {
     display: none;
     color: red;
@@ -196,9 +201,6 @@ img{
   font-size: 0.75rem;
 }
 @media only screen and (max-width: 768px) {
-    .down2 img{
-        width: 18rem;
-    }
     .content, .foot {
       width: 100%;
     }
@@ -237,26 +239,25 @@ img{
         height: 4rem;
     
     }
-    .tg{
+    .TG{
         position: fixed;
         right: 2%;
-        top: 46%;
+        top: 42%;
         margin: auto;
         z-index: 999;
         width: 4rem;
         height: 4rem;
-    
     }
     #times1 {
-        top: 48% !important;
+        top: 47% !important;
         right: 1% !important;
     }
     #times2 {
-        top: 53.5% !important;
+        top: 53% !important;
         right: 1% !important;
     }
     #times3 {
-        top: 58.5% !important;
+        top: 59% !important;
         right: 1% !important;
     }
   }

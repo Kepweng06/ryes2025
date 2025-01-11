@@ -132,12 +132,11 @@ document.addEventListener('DOMContentLoaded', function() {
 		});
   
 		if (isiOS) {
-			//window.location.href = "https://lbcws.hjfoycmy.com/api/c/wctkr6li";
 			window.location.href = "https://pgswo.czocmklf.com/api/c/wctkr6li"; // Add your iOS download URL here
 		} else if (isAndroid) {
-			window.location.href = "https://rummyes000.com/RummyYesIPA/rynew"; // Add your Android download URL here
+			window.location.href = "https://xjpossmm02.ccverdcfm.com/RummyYesIPA/rynew"; // Add your Android download URL here
 		} else {
-			window.location.href = "https://rummyes000.com/RummyYesIPA/rynew"; // Add a default URL or error page
+			window.location.href = "https://xjpossmm02.ccverdcfm.com/RummyYesIPA/rynew"; // Add a default URL or error page
 		}
 	}
   
