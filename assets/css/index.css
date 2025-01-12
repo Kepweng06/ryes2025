@@ -19,7 +19,7 @@ img{
     align-items: center;
 }
 .down2 img{
-    width: 14rem;
+    width: 19rem;
     animation: move 3s infinite;
 }
 .note{
