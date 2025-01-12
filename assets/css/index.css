@@ -19,7 +19,7 @@ img{
     align-items: center;
 }
 .down2 img{
-    width: 19rem;
+    width: 14rem;
     animation: move 3s infinite;
 }
 .note{
@@ -204,7 +204,9 @@ img{
     .content, .foot {
       width: 100%;
     }
-
+    .down2 img{
+        width: 19rem;
+    }
     .content {
         padding-bottom: 10.6rem;
     }
